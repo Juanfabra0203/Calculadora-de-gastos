@@ -24,6 +24,12 @@ section{
 section form{
     flex-direction: column;
 }
+section ul li{
+    list-style:decimal;
+}
+div label {
+    font-family: Coolvetica-rg;
+}
 
 
 

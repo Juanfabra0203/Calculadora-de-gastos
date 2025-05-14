@@ -17,15 +17,20 @@
     
     
     <section>
-        <form>
+        <form id="form">
             <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Descripcion</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <label class="form-label">Descripcion</label>
+              <input type="text" class="form-control" id="descripcion">
             </div>
             <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Monto</label>
-              <input type="number" class="form-control" id="exampleInputPassword1">
+              <label class="form-label">Monto</label>
+              <input type="number" class="form-control" id="monto">
             </div>
+            <select id="tipo" class="form-select mb-3" aria-label="Default select example">
+              <option selected>Selecciona una opcion</option>
+              <option value="ingreso">Ingreso</option>
+              <option value="gasto">Gasto</option>
+            </select>
             <button type="submit" class="btn btn-primary">Agregar</button>
           </form>
     </section>
