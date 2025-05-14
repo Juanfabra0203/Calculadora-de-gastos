@@ -1,0 +1,57 @@
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Coolvetica-rg;
+}
+
+header #balance{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Coolvetica-rg;
+    margin: 20px
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10px;
+}
+
+section form{
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+@font-face {
+    font-family: Coolvetica-hv ;
+    src: url(fuentes/Coolvetica\ Hv\ Comp.otf);
+}
+
+@font-face {
+    font-family: Coolvetica-rg;
+    src: url(fuentes/Coolvetica\ Rg.otf);
+}
+
+@font-face {
+    font-family: Coolvetica-rg-cram;
+    src: url(fuentes/Coolvetica\ Rg\ Cram.otf);
+}
+
+@font-face {
+    font-family: Coolvetica-rg-cond;
+    src: url(fuentes/Coolvetica\ Rg\ Cond.otf);
+}
+
+@font-face {
+    font-family: Coolvetica-rg-it;
+    src: url(fuentes/Coolvetica\ Rg\ It.otf)
+}
